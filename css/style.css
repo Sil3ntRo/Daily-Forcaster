@@ -1,0 +1,32 @@
+body {
+	font-family: 'Tangerine', 'serif';
+	background-color: #fffff;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_bar {
+	margin-bottom: 0px;
+	padding: 0;
+	background-color: white;
+	border: none;
+}
+
+.weather {
+	color: #4aa1f3 !important;
+	font-size: 25px;
+	font-weight: 600px;
+}
+
+#nav_icons > li > a {
+	color: #4aa1f3;
+	font-weight: 500;
+}
+
+#logo {
+	max-height: 48px;
+	margin-right: 8px;
+	display: inline-block;
+	margin-top: -10px;
+}
