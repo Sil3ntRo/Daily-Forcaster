@@ -1,1 +1,1 @@
-# Daily-Forcaster
+# Daily-Forecaster
