@@ -25,8 +25,22 @@ body {
 }
 
 #logo {
-	max-height: 48px;
+	max-height: 45px;
 	margin-right: 8px;
 	display: inline-block;
 	margin-top: -10px;
+}
+
+#headRow {
+	background: url('/images/rp.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	margin-top: 0px;
+}
+
+#colheadText1 {
+    color: white;
+    padding-top: 30px;
+    font-size: 50px;
 }
