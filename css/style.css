@@ -1,3 +1,7 @@
+.favicon{
+     border-radius:20px;
+}
+
 body {
 	font-family: 'Tangerine', 'serif';
 	background-color: #fffff;
@@ -8,10 +12,18 @@ body {
 
 #nav_bar {
 	margin-bottom: 0px;
-	padding: 0;
+	padding: 0px;
 	background-color: white;
 	border: none;
 }
+
+.nav_brand{
+            color: whitesmoke    !important;
+            font-size: 25px;
+            font-weight: 600;
+}
+
+
 
 .weather {
 	color: #4aa1f3 !important;
@@ -20,8 +32,8 @@ body {
 }
 
 #nav_icons > li > a {
-	color: #4aa1f3;
-	font-weight: 500;
+	color:whitesmoke;
+    font-weight: 500;
 }
 
 #logo {
@@ -31,16 +43,190 @@ body {
 	margin-top: -10px;
 }
 
+.nav_brand:hover{
+            color: #4aa1f3   !important;
+            font-size: 25px;
+            font-weight: 600;
+}
+
+#nav_list > li > a:hover{
+            background-color:#FFFFFF !important;
+            color:#000000 !important;
+            font-weight: 500;
+}
+
+#button{
+            margin-top:8px;
+            margin-right:-80px;
+            margin-left:20px;      
+}
+
 #headRow {
-	background: url('/images/rp.jpg') no-repeat;
+	background: url('/Images/rp.jpg') no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 450px;
 	margin-top: 0px;
+	margin-left: 0px;
 }
 
 #colheadText1 {
     color: white;
     padding-top: 30px;
     font-size: 50px;
+}
+
+#colHeadText2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+	font-size: 45px;
+}
+
+#colheadtext3{
+    color: black;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    text-shadow:1px 1px white;
+}
+
+#arrow{                                                   
+    text-align: center;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul#list_item {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#cityDiv {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#city{
+    width: 40%;
+}
+
+input[type='text'] {
+    height: 40px;
+    font-size: 20px;
+}
+
+#submitCity {
+    height: 40px;
+    font-weight: bold;
+}
+
+#errorCity {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.footer {
+	background-color: black;
+	width: 100%;
+	height: 80px;
+	margin-top: 0;
+	bottom: 0;
+}
+
+#showWeather {
+	width: 60%;
+	margin: auto;
+	background-color: #4aa1f3;
+	color: white;
+	border-radius: 25px;
+}
+
+table {
+	color: #333333;
+	font-family: Helvetical, Arial, sans-serif;
+}
+
+th {
+	background: #4aa1f3;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+}
+
+td {
+	background: #FAFAFA;
+	text-align: center;
+	font-size: 18px;
+}
+
+#welcome-paragrah {
+	font-size: 18px;
+	font-weight: normal;
+	padding: 12px 25px 40px 25px;
+	letter-spacing: 2px;
+}
+
+#rowDiv {
+	margin: auto;
+	width: 100%;
+}
+
+#colDesc h3{
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+
+#colDesc {
+	border: 1px solid #e7e7e7;
+	margin: 0 auto;
+	height: auto;
+}
+
+#colDesc:hover {
+    border: 2px solid #e7e7e7;
+    border-radius:20px; 
+    margin: 10px 40px;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F1F1F1;
+    color: black;
+}
+
+.info-icon {
+	text-align: center;
+}
+
+.info-icon i {
+	font-size: 60px;
+	margin-top: 10px;
+	color: #4aa1f3;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
