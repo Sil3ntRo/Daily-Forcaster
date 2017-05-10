@@ -11,10 +11,8 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<link rel="icon" class="favicon" href="images/favicon.jpeg" type="image/gif" sizes="16x16">
+	<link rel="icon" class="favicon" href="images/favicon.jpeg" type="image/gif" sizes="16x16">	
 	
 	
 	
@@ -43,12 +41,12 @@
 				<li><a href="current.html">Current</a></li>
 				<li><a href="forecast.html">Forecast</a></li>
 				<li><a href="http://www.openweathermap.org" target="_blank">Open Weather Map</a></li>
-				<li><button class="btn btn-success" id="button">Login In</button></li>
+				<li><button class="btn btn-success" id="button">Login</button></li>
 		</ul>		
 	</div>
 </nav>
 
-<div class="row" id="headRow">
+<div class="row jumbotron" id="headRow" style="background: url(images/rp.jpg) no-repeat; background-size: cover; width:100%; height:510px;margin-top:0px;margin-left:0px;">
 	<div class="col-md-12" id="colText">
 		<h2 class="text-center" id="colHeadText1"></h2>
 		<h2 class="text-center" id="colHeadText2"></h2>
@@ -69,12 +67,12 @@
 	<div class="row">
 		<div class="col-md-12">
 			<h2 class="text-center text-primary" style="margin-top:40px;">Welcome to Rohan's Daily Forecast App</h2>
-			<p class="text-center" id="welcome-paragraph">Here's a site for users to search for cities all around world to get the current weather and also the forecast</p>
+			<p class="text-center" id="welcome-paragraph">Here's a site for users to search for cities all around the world to get the current weather and also the forecast</p>
 		</div>
 	</div>
 	<div class="row" id="rowDiv">
 	   <a href="http://www.openweathermap.org/" target="_blank">
-		<div class="col-md-3" id="colDesc">
+		<div class="col-md-12" id="colDesc">
 			<div class="info-icon"><i class="fa fa-sun-o"></i>
 			</div>
 			<h3 class="text-center">Weather API</h3>
@@ -82,7 +80,7 @@
 		</div>
 		</a>
 		<a href="current.html">
-		<div class="col-md-3" id="colDesc">
+		<div class="col-md-12" id="colDesc">
 			<div class="info-icon"><i class="fa fa-search"></i>
 			</div>
 			<h3 class="text-center">Search</h3>
@@ -90,7 +88,7 @@
 		</div>
 		</a>
 		<a href="forecast.html">
-		<div class="col-md-4" id="colDesc">
+		<div class="col-md-12" id="colDesc">
 			<div class="info-icon"><i class="fa fa-chevron-circle-down"></i>
 			</div>
 			<h3 class="text-center">View Results</h3>
